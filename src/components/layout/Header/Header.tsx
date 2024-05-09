@@ -1,14 +1,17 @@
 import React from 'react';
 
 import './Header.scss'
-import startGame from '../../../scripts/startGame'
+import { useDispatch } from 'react-redux';
+import { startGame } from '../../../scripts/actions';
 
-
-const handleStartGame = () => {
-    startGame();
-};
 
 const Header: React.FC = () => {
+
+    const dispatch = useDispatch();
+
+    const handleStartGame = () => {
+        dispatch(startGame());
+    };
 
     return (
         <header className="Header">
