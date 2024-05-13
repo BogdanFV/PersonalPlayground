@@ -1,8 +1,11 @@
 
 import App from './components/App';
 import React from 'react';
+import { createStore } from 'redux';
+import { rootReducer } from './scripts/redux/reducers/rootReducer';
 import { Provider } from 'react-redux';
-import store from './scripts/store';
+
+const store = createStore(rootReducer);
 
 const Root: React.FC = () => {
   return (
