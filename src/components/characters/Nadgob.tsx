@@ -7,7 +7,7 @@ import {
   moveCharacterRight,
   moveCharacterUp,
   moveCharacterDown
-} from '../../scripts/actions';
+} from '../../scripts/redux/actions';
 
 const Nadgob: React.FC = () => {
   const dispatch = useDispatch();
