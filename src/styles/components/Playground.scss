@@ -1,0 +1,11 @@
+.Playground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $field-width;
+    background-color: green;
+    height: $field-height;
+    margin: 50px;
+
+    box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+@import './styles/variables';
+
+@import './styles/components/Playground.scss';
+@import './styles/components/ActionField.scss';
+@import './styles/components/Ground.scss';
+
+// @import './App.scss';
+// @import './layout/body.scss';
+// @import './layout/ActionField.scss';
+
+// @import './exterior/Ground.scss';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
